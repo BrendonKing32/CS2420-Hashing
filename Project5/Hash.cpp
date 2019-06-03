@@ -1,9 +1,10 @@
 #include "Hash.h"
 
-
+const int MAX = 20;
 
 Hash::Hash()
 {
+	for (int i = 0, i < HashTable.length(); ++i)
 }
 
 int Hash::getHashValue(int value)
