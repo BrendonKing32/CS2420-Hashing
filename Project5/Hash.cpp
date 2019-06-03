@@ -12,21 +12,26 @@ Hash::Hash()
 
 int Hash::getHashValue(int value)
 {
+
 	return 0;
 }
 
 int Hash::insert(int value)
 {
+
 	return 0;
 }
 
 bool Hash::resolveCollision()
 {
+
 	return false;
 }
 
 void Hash::display()
 {
+	cout << "HASH TABLE contents" << endl;
+	cout << "Key\tValue" << endl;
 }
 
 
