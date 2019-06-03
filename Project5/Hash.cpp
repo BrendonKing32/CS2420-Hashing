@@ -11,7 +11,7 @@ int Hash::getHashValue(int value)
 	return 0;
 }
 
-int Hash::insert()
+int Hash::insert(int value)
 {
 	return 0;
 }
