@@ -17,5 +17,6 @@ void printHeader() {
 
 int main() {
 	printHeader();
+	system("pause");
 	return 0;
 }
