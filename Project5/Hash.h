@@ -1,10 +1,9 @@
 #pragma once
-const int MAX = 20;
 
 class Hash
 {
 private:
-	int HashTable[MAX];
+	int HashTable[];
 public:
 	Hash();
 	
