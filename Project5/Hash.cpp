@@ -4,7 +4,10 @@ const int MAX = 20;
 
 Hash::Hash()
 {
-	for (int i = 0, i < HashTable.length(); ++i)
+	HashTable[MAX];
+	for (int i = 0, i < HashTable.length(); ++i) {
+		HashTable[i] = -999;
+	}
 }
 
 int Hash::getHashValue(int value)
